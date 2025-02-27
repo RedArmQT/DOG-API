@@ -3,7 +3,7 @@ from favorites import add_to_favorites, view_favorites
 
 def main():
     while True:
-        print("\n🐶 Dog API Viewer 🐶")
+        print("\n Dog API Viewer ")
         print("1. Get a random dog image")
         print("2. Get an image of a dog by breed")
         print("3. List all available breeds")
