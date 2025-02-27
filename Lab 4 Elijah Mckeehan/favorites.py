@@ -25,7 +25,7 @@ def add_to_favorites(breed):
 def view_favorites():
     favorites = load_favorites()
     if favorites:
-        print("⭐ Favorite Breeds ⭐")
+        print(" Favorite Breeds ")
         for breed in favorites:
             print(f"- {breed}")
     else:
